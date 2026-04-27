@@ -11,7 +11,7 @@ export const Services = () => {
 
       <div className="grid md:grid-cols-3 gap-6 md:gap-10 px-6 md:px-20">
         <div className="bg-white rounded-2xl p-6 md:p-8 text-center shadow-sm hover:shadow-lg transition-all duration-300">
-          <h2 className="text-xl md:text-2xl font-dm-sans mb-3 md:text-indigo-500 font-semibold">
+          <h2 className="text-xl md:text-2xl font-dm-sans mb-3 text-indigo-500 font-semibold">
             Webs profesionales
           </h2>
           <p className="font-montserrat text-gray-600">

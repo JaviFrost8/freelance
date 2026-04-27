@@ -9,7 +9,7 @@ export const Proyectos = () => {
       className="flex flex-col min-h-screen lg:w-[80%] items-center justify-center"
     >
       <h1 className="font-dm-sans mt-30 mb-2 text-2xl md:text-3xl">
-        Proyectos destacados
+        Proyectos recientes
       </h1>
       <div className="flex flex-col px-2 lg:grid lg:grid-cols-2 lg:gap-8 justify-center items-center">
         {projects.map((project) => (

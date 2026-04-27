@@ -5,6 +5,7 @@ import { Inicio } from './components/Inicio';
 import { Navbar } from './components/Navbar';
 import { Proyectos } from './components/Proyectos';
 import { Services } from './components/Services';
+import { WhatsappButton } from './components/WhatsappButton';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Services />
         <Proyectos />
         <Contacto />
+        <WhatsappButton />
       </main>
       <Footer />
     </>
