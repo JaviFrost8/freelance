@@ -1,8 +1,6 @@
-import citalia from '@/public/citalia.png';
-import ecommerce from '@/public/ecommerce.png';
+import collector from '../../public/thecollector.webp';
+import rafaello3d from '../../public/rafaello3d.webp';
 import { StaticImageData } from 'next/image';
-import portfolio from '@/public/portfolio.png';
-import vicio from '@/public/vicio.png';
 
 interface PropsProjects {
   id: number;
@@ -11,61 +9,37 @@ interface PropsProjects {
   imagen: StaticImageData;
   caracteristicas: string[];
   demo?: string;
-  codigo: string;
+  codigo?: string;
 }
 
 export const projects: PropsProjects[] = [
   {
     id: 1,
-    nombre: 'Citalia',
+    nombre: 'Web para negocio local',
     descripcion:
-      'Aplicación web para descubrir y compartir citas célebres, desarrollada con React y Firebase para la gestión de datos',
-    imagen: citalia,
+      'Desarrollo de una página web profesional para un cliente real, diseñada para mostrar sus servicios de forma clara y atractiva, mejorar su presencia online y facilitar el contacto con potenciales clientes.',
+    imagen: rafaello3d,
     caracteristicas: [
-      'Firebase',
-      'Autenticación de usuarios',
-      'Interacción de usuarios',
+      'Diseño moderno y responsive',
+      'Optimizada para móviles',
+      'Carga rápida y buen rendimiento',
+      'Estructura pensada para captar clientes',
     ],
     demo: 'https://citalia-project.vercel.app/',
     codigo: 'https://github.com/JaviFrost8/citalia',
   },
   {
     id: 2,
-    nombre: 'Vicio',
+    nombre: 'App para coleccionistas de Cine',
     descripcion:
-      'Aplicación para concienciar sobre el deterioro y la destrucción que producen las drogas',
-    imagen: vicio,
-    caracteristicas: ['Diseño Responsive', 'Estado global', 'React Router'],
-    demo: 'https://vicioapp-z9b8.vercel.app/',
-    codigo: 'https://github.com/JaviFrost8/vicio',
-  },
-  {
-    id: 3,
-    nombre: 'Eva Stettic',
-    descripcion:
-      'E-commerce de estética y bienestar con carrito de compras gestionado mediante estado global usando Context API',
-    imagen: ecommerce,
+      'Aplicación web para gestionar y organizar colecciones de películas en formato Blu-ray, pensada para usuarios que desean controlar su catálogo de forma sencilla.',
+    imagen: collector,
     caracteristicas: [
-      'Estado Global',
-      'Lógica de carrito',
-      'Arquitectura de componentes',
+      'Gestión de colecciones',
+      'Interfaz clara y fácil de usar',
+      'Búsqueda y organización de contenido',
+      'Experiencia optimizada para el usuario',
     ],
-    demo: 'https://stetticfinish.vercel.app/',
-    codigo: 'https://github.com/JaviFrost8/stettic',
-  },
-  {
-    id: 4,
-    nombre: 'Portfolio',
-    descripcion:
-      'Portfolio personal desarrollado con Next.js con diseño responsive, rendimiento y buenas prácticas de desarrollo',
-    imagen: portfolio,
-    caracteristicas: [
-      'NextJS',
-      'Typescript',
-      'SEO',
-      'Optimización',
-      'Diseño Responsive',
-    ],
-    codigo: 'https://github.com/JaviFrost8/portfoliov2',
+    demo: 'https://thecollectorv2.vercel.app/',
   },
 ];

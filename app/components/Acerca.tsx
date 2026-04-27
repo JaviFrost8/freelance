@@ -14,7 +14,8 @@ export const Acerca = () => {
           <p className="font-montserrat mb-6 text-gray-600 md:text-2xl">
             Soy desarrollador web freelance especializado en React y Next.js.
             Ayudo a negocios y emprendedores a crear aplicaciones web modernas,
-            rápidas y adaptadas a sus necesidades.
+            rápidas y adaptadas a sus necesidades, ayudándoles a atraer más
+            clientes y mejorar su presencia online.
           </p>
           <p className="font-montserrat text-gray-600 md:text-2xl">
             Me enfoco en construir interfaces limpias, escalables y con buena
@@ -44,8 +45,8 @@ export const Acerca = () => {
             src="/escritorio.jpg"
             alt="escritorio"
             width="600"
-            height="600"
-            className="rounded-2xl w-full max-h-[350px] md:max-h-[450px] lg:max-h-[600px] md:object-top object-cover shadow-2xl"
+            height="400"
+            className="rounded-2xl w-full h-auto max-h-[350px] md:max-h-[450px] lg:max-h-[600px] md:object-top object-cover shadow-2xl"
           />
         </div>
       </div>

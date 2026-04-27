@@ -13,9 +13,11 @@ export const Contacto = () => {
           ¿Hablamos?
         </h1>
         <p className="font-montserrat text-center md:text-xl text-gray-600">
-          Estoy buscando mi primera oportunidad como desarrollador. Me interesa
-          formar parte de un equipo donde pueda aprender, aportar y crecer
-          profesionalmente.
+          Si tienes una idea, un proyecto o necesitas mejorar tu web, estaré
+          encantado de ayudarte a hacerlo realidad.
+        </p>
+        <p className="font-montserrat text-center md:text-lg text-gray-500 mt-2">
+          Puedes contactarme directamente por email o teléfono.
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-6 justify-center mt-6">
           <a href="mailto:jjaviergonzalez23@gmail.com">

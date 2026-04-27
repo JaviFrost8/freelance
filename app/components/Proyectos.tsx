@@ -25,17 +25,17 @@ export const Proyectos = () => {
               className="rounded-2xl my-6 shadow-2xl max-h-[350px] md:h-[300px] object-cover"
             />
             <div className="flex flex-col justify-center items-center">
-              <h2 className="font-montserrat font-bold mb-2 text-xl">
+              <h2 className="font-montserrat font-bold mb-2 text-xl text-indigo-500">
                 {project.nombre}
               </h2>
               <p className="font-public-sans text-md text-center md:text-start">
                 {project.descripcion}
               </p>
-              <div className="flex flex-wrap gap-2 mt-2 justify-center md:justify-start">
+              <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-sm md:text-base font-montserrat text-gray-600">
                 {project.caracteristicas.map((c) => (
                   <div
                     key={c}
-                    className="bg-[#F6F7F9] p-2 rounded-2xl text-md font-public-sans"
+                    className="flex bg-[#F6F7F9] text-center items-center justify-center px-3 py-1 rounded-full text-sm font-montserrat text-gray-700"
                   >
                     {c}
                   </div>
@@ -44,7 +44,7 @@ export const Proyectos = () => {
             </div>
 
             <div className="flex justify-center md:justify-start gap-6 w-full mt-6">
-              {project.demo ? (
+              {project.demo && (
                 <>
                   <a
                     className="cursor-pointer"
@@ -52,22 +52,11 @@ export const Proyectos = () => {
                     target="_blank"
                   >
                     <button className="font-montserrat px-4 py-2 rounded-2xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
-                      Demo
+                      Visitar
                     </button>
                   </a>
                 </>
-              ) : (
-                ''
               )}
-              <a
-                className="cursor-pointer"
-                href={project.codigo}
-                target="_blank"
-              >
-                <button className="font-montserrat px-4 py-2 rounded-2xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
-                  Código
-                </button>
-              </a>
             </div>
           </div>
         ))}

@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import { Inicio } from './components/Inicio';
 import { Navbar } from './components/Navbar';
 import { Proyectos } from './components/Proyectos';
-import { Stack } from './components/Stack';
+import { Services } from './components/Services';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col min-h-screen items-center justify-center">
         <Inicio />
         <Acerca />
-        <Stack />
+        <Services />
         <Proyectos />
         <Contacto />
       </main>
