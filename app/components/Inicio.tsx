@@ -30,12 +30,11 @@ export const Inicio = () => {
       </h1>
 
       <p className="font-montserrat mt-2 text-lg md:text-3xl text-gray-600 text-center">
-        Desarrollador web especializado en React y soluciones frontend.
+        Desarrollo aplicaciones web que convierten visitantes en clientes.
       </p>
 
       <p className="hidden md:block font-montserrat mt-2 text-lg md:text-2xl text-gray-600 text-center">
-        Ayudo a negocios a convertir ideas en aplicaciones web rápidas, modernas
-        y escalables.
+        Rápidas, optimizadas y diseñadas para hacer crecer tu negocio online.
       </p>
 
       <p className="md:hidden font-montserrat mt-2 text-lg text-gray-600 text-center">
