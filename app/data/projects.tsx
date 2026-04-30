@@ -25,8 +25,7 @@ export const projects: PropsProjects[] = [
       'Carga rápida y buen rendimiento',
       'Estructura pensada para captar clientes',
     ],
-    demo: 'https://citalia-project.vercel.app/',
-    codigo: 'https://github.com/JaviFrost8/citalia',
+    demo: 'https://rafaello3d.vercel.app/',
   },
   {
     id: 2,
