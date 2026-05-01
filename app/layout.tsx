@@ -35,11 +35,11 @@ export const metadata: Metadata = {
 
     title: 'Desarrollador web en Chiclana',
     description:
-      'React, Next.js y TypeScript. Desarrollo interfaces modernas, rápidas y enfocadas a resultados.',
+      'Desarrollo interfaces modernas, rápidas y enfocadas a resultados.',
 
     images: [
       {
-        url: 'https://javidev.es/og-image.jpg?v=2',
+        url: 'https://javidev.es/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'JaviDev - Frontend Developer',
