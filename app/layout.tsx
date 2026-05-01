@@ -18,8 +18,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title:
-    'Javier Gonzalez, desarrollador web freelance en Chiclana de la Frontera especializado en React y NextJS.',
+  title: 'Desarrollador web en Chiclana.',
   description:
     'Soy desarrollador web especializado en React y Next.js. Creo sitios modernos, rápidos y optimizados para ofrecer la mejor experiencia de usuario.',
 };
