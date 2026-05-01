@@ -25,7 +25,7 @@ export const projects: PropsProjects[] = [
       'Carga rápida y buen rendimiento',
       'Estructura pensada para captar clientes',
     ],
-    demo: 'https://rafaello3d.vercel.app/',
+    demo: 'https://rafaello3d.es/',
   },
   {
     id: 2,
