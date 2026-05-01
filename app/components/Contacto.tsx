@@ -26,7 +26,7 @@ export const Contacto = () => {
           <a href="mailto:jjaviergonzalez23@gmail.com">
             <div className="flex gap-2 justify-center mb-3">
               <IoMdMail size={20} className="text-gray-600" />
-              <span className="text-gray-600">Jjaviergonzalez23@gmail.com</span>
+              <span className="text-gray-600">Javidev.contacto@gmail.com</span>
             </div>
           </a>
           <a href="tel:662628562">
