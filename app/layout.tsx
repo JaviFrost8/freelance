@@ -18,9 +18,52 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Desarrollador web en Chiclana.',
+  metadataBase: new URL('https://javidev.es'),
+
+  title: 'JaviDev | Frontend Developer (React & Next.js)',
   description:
-    'Soy desarrollador web especializado en React y Next.js. Creo sitios modernos, rápidos y optimizados para ofrecer la mejor experiencia de usuario.',
+    'Desarrollador frontend especializado en React, Next.js y TypeScript. Creo interfaces modernas, rápidas y enfocadas a conversión.',
+
+  alternates: {
+    canonical: 'https://javidev.es',
+  },
+
+  openGraph: {
+    type: 'website',
+    url: 'https://javidev.es',
+    siteName: 'JaviDev',
+
+    title: 'Desarrollador web en Chiclana',
+    description:
+      'React, Next.js y TypeScript. Desarrollo interfaces modernas, rápidas y enfocadas a resultados.',
+
+    images: [
+      {
+        url: 'https://javidev.es/og-image.jpg?v=2',
+        width: 1200,
+        height: 630,
+        alt: 'JaviDev - Frontend Developer',
+      },
+    ],
+
+    locale: 'es_ES',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'JaviDev | Frontend Developer',
+    description:
+      'React, Next.js y TypeScript. Interfaces modernas y optimizadas.',
+    images: ['https://javidev.es/og-image.jpg'],
+  },
+
+  keywords: [
+    'frontend developer',
+    'react developer',
+    'next.js developer',
+    'typescript',
+    'portfolio desarrollador',
+  ],
 };
 
 export default function RootLayout({
