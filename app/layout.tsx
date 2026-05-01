@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'JaviDev | Frontend Developer',
     description:
-      'React, Next.js y TypeScript. Interfaces modernas y optimizadas.',
+      'Desarrollo interfaces modernas, rápidas y enfocadas a resultados.',
     images: ['https://javidev.es/og-image.jpg'],
   },
 
