@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: 'https://javidev.es',
     siteName: 'JaviDev',
 
-    title: 'Desarrollador web en Chiclana',
+    title: 'Javidev | Desarrollador web en Chiclana de la Frontera',
     description:
       'Desarrollo interfaces modernas, rápidas y enfocadas a resultados.',
 
