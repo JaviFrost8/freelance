@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Public_Sans, DM_Sans, Montserrat } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const publicSans = Public_Sans({
   variable: '--font-public-sans',
@@ -74,11 +75,28 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <Script id="gtm" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NH9P2CBP');
+          `}
+        </Script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body
         className={`${publicSans.variable} ${dmSans.variable} ${montserrat.variable} antialiased`}
       >
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NH9P2CBP"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         {children}
       </body>
     </html>
